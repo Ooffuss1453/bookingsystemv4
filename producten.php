@@ -40,10 +40,10 @@
       <tbody>
         <?php
           // Connect to the database
-          $servername = "localhost";
-          $username = "root";
-          $password = "";
-          $dbname = "test";
+          $servername = "boekhoudsysteem.mysql.database.azure.com";
+          $username = "sekariya";
+          $password = "Prullenbak123";
+          $dbname = "db_boekhoud";
 
           $conn = new mysqli($servername, $username, $password, $dbname);
           if ($conn->connect_error) {

@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "boekhoudsysteem.mysql.database.azure.com";
+$username = "sekariya";
+$password = "Prullebak123";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);

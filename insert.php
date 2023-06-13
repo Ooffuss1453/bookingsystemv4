@@ -1,9 +1,9 @@
 <?php
 // Assuming you have the necessary MySQL credentials
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'test';
+$host = 'boekhoudsysteem.mysql.database.azure.com';
+$username = 'sekariya';
+$password = 'Prullenbak123';
+$database = 'db_boekhoud';
 
 // Create a new MySQLi instance
 $mysqli = new mysqli($host, $username, $password, $database);
